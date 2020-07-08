@@ -1,0 +1,7 @@
+{
+  "name": "dogNpup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
