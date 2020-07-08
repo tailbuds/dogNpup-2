@@ -9,7 +9,7 @@ npm install
 Run the App
 
 ```bash
-npm start
+ionic serve
 ```
 
 Project structure to follow:
