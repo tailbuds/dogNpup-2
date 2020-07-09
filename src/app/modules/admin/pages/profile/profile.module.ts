@@ -1,3 +1,4 @@
+import { HeaderComponent } from './../../components/header/header.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -9,12 +10,7 @@ import { ProfilePageRoutingModule } from './profile-routing.module';
 import { ProfilePage } from './profile.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    ProfilePageRoutingModule
-  ],
-  declarations: [ProfilePage]
+  imports: [CommonModule, FormsModule, IonicModule, ProfilePageRoutingModule],
+  declarations: [ProfilePage, HeaderComponent],
 })
 export class ProfilePageModule {}
