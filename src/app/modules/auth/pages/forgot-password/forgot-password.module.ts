@@ -1,3 +1,4 @@
+import { HeaderComponent } from './../../components/header/header.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -13,8 +14,8 @@ import { ForgotPasswordPage } from './forgot-password.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ForgotPasswordPageRoutingModule
+    ForgotPasswordPageRoutingModule,
   ],
-  declarations: [ForgotPasswordPage]
+  declarations: [ForgotPasswordPage, HeaderComponent],
 })
 export class ForgotPasswordPageModule {}

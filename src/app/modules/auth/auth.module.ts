@@ -10,6 +10,8 @@ import { AuthPageRoutingModule } from './auth-routing.module';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, AuthPageRoutingModule],
-  // declarations: [AuthPage]
+  declarations: [
+    //AuthPage,
+  ],
 })
 export class AuthPageModule {}

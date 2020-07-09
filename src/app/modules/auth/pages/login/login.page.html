@@ -1,9 +1,31 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
 
 <ion-content>
+  <ion-col size="6" class="ion-text-center">
+    <ion-text color="danger">
+      <p><strong> Don't know this email, please Sign-up</strong></p>
+    </ion-text>
+  </ion-col>
+  <ion-row id="login-row">
+    <ion-card>
+      <form>
+
+        <div class="ion-text-center">
+          <ion-title><strong>Log In</strong></ion-title>
+        </div>
+
+        <ion-item lines="insert">
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input id="rounded" required type="text"></ion-input>
+        </ion-item><br>
+
+        <ion-item lines="none">
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input id="rounded" required type="text"></ion-input>
+        </ion-item><br>
+      </form>
+    </ion-card>
+  </ion-row>
+
 
 </ion-content>
